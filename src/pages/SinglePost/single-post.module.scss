@@ -1,0 +1,15 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.postContainer {
+  width: 60vw;
+  padding: 4rem;
+  background-color: $secondaryColor;
+
+  h2 {
+    color: $white;
+  }
+  p {
+    color: $black;
+  }
+}
